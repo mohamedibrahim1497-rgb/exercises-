@@ -1,5 +1,0 @@
-#This program adds two numbers and prints the total
-num1 = 9
-num2 = 11
-total = num1 + num2
-print(total)
