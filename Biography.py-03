@@ -1,0 +1,21 @@
+#This program stores personal info in a dictionary and prints it
+person = {
+    "name" : "Mohamed Ibrahim",
+     "hometown" : "Riyadh",
+    "age": 19
+
+}
+print(person["name"],person["hometown"],person["age"])
+
+
+#Advanced Requirements:
+name = input("Enter your name : ")
+hometown = input("Enter your hometown")
+age = int(input("Enter your age "))
+person = {
+    "name": name,
+    "hometown": hometown,
+    "age": age
+}
+
+print(person["name"],person["hometown"],person["age"])
