@@ -1,0 +1,12 @@
+# This program uses loops to count up and down in diiferent steps
+for y in range(0,51):
+    print(y)
+
+for y in range(50,-1,-1):
+    print("Hello 1")
+for y in range(30,51):
+    print("Hello 2")
+for y in range(50,9,-2):
+    print("Hello 3")
+for y in range(100,201,5):
+    print("Hello 4")
