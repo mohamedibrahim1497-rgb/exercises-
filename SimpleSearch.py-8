@@ -1,0 +1,12 @@
+#This program searches for a specific name like 'Sam' inside a list
+Names = ["Jake","Zac","Lan","Ron","Sam","Daved"]
+if "Sam" in Names:
+    print("Sam is found")
+else:
+    print("Sam is not found")
+#Optional Requirements
+Search = input("Enter name to search: ")
+if Search in Names:
+    print(Search,"is found")
+else:
+    print(Search,"is not found!")
