@@ -1,0 +1,21 @@
+#a password system that keeps asking until the correct code is entered
+Password1 = 257900
+User_input = 0
+while User_input != Password1 :
+    User_input = int(input("Enter your password: "))
+print("access granted")
+
+#optional
+Password2 = 987890
+attempts = 5
+while attempts > 0 :
+    user_input = int(input("Enter your password: "))
+    if user_input == Password2:
+        print("access granted")
+        break
+    attempts -= 1
+    print("Attempts left:" , attempts)
+if attempts == 0 :
+    print("access denied ")
+
+
