@@ -1,0 +1,9 @@
+#simple fucction named hello that prints a greeting to the console
+def hello():
+    print("Hello")
+def main():
+    hello()
+
+if __name__ == "__main__":
+    main()
+
